@@ -4,3 +4,5 @@
 **Matlab environment has been used**
 
 # Notes
++ Be sure to change your directory folder on the code.m script
++ Be sure to include the functions you need on your project folder
