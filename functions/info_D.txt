@@ -1,0 +1,23 @@
+21 soggetti (10 M, 11 F)
+età: 22-39 anni
+
+segnali EEG acquisiti con Micromed Brain Quick System
+19 channels (10-20 standard system) 
+
+canali bipolari riferiti a Fpz
+
+frequenza campionamento: 128 Hz
+
+8 s: eyes open
+8 s: eyes closed;
+
+
+--------------------------
+
+dati organizzati in 21 cartelle (1 per ogni soggetto) e due sottocartelle (1 per ogni condizione)
+ogni sottocartella contiene un file di dati matlab: sottocamp_data_viever.mat
+il file dati apre la struct v_salvato, che contiene i campi:
+- ser: segnali organizzati in una matrice 1025 x 32 (campioni x canali)
+- fc: frequenza di campionamento
+- nomec: array di celle con le etichette per ogni canale
+- canali: numero di canali
